@@ -1,0 +1,1 @@
+wget http://download.geofabrik.de/europe/spain-latest.osm.bz2 && bzcat spain-latest.osm.bz2 | osmconvert - --out-osm -B=CiudadMadrid.poly.txt -o=CiudadMadrid.osm
